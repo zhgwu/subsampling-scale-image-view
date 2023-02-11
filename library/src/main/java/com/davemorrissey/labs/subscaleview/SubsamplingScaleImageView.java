@@ -1226,7 +1226,7 @@ public class SubsamplingScaleImageView extends View {
     private void createPaints() {
         if (bitmapPaint == null) {
             bitmapPaint = new Paint();
-            bitmapPaint.setAntiAlias(true);
+            bitmapPaint.setAntiAlias(false);
             bitmapPaint.setFilterBitmap(true);
             bitmapPaint.setDither(true);
         }
